@@ -1,0 +1,47 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0f172a;
+  color: white;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #a855f7, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.profile {
+  background: #1e293b;
+  padding: 16px;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 40px;
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
