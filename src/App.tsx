@@ -34,16 +34,15 @@ export default function App() {
             />
 
             {/* Рабочий минт от Zora */}
-            <div className="w-full max-w-sm">
-              <iframe
-                src="https://zora.co/collect/base:0x04e2539779f6e89529cd21b1e7df7e19982fd20e0/1?embed=1"
-                width="100%"
-                height="260"
-                style={{ border: "none", borderRadius: "20px", boxShadow: "0 8px 32px rgba(0,0,0,0.5)" }}
-                title="Mint free NFT"
-                allow="clipboard-write"
-              />
-            </div>
+           {/* ←←← РАБОЧИЙ МИНТ В WARPCAST — без попапов */}
+<div className="w-full max-w-sm">
+  <a
+    href="https://warpcast.com/~/add-cast-action?url=https%3A%2F%2Fzora.co%2Fcollect%2Fbase%3A0x04e2539779f6e89529cd21b1e7df7e19982fd20e0%2F1"
+    className="block w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold py-4 px-6 rounded-2xl text-center shadow-lg hover:shadow-xl transition"
+  >
+    Минт бесплатный NFT
+  </a>
+</div>
 
             <p className="absolute bottom-6 text-xs opacity-50">
               Бесплатный минт • работает в Warpcast
