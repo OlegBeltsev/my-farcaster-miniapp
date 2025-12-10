@@ -1,4 +1,3 @@
-// src/App.tsx — полностью рабочая версия на 10 декабря 2025
 import {
   ConnectButton,
   RainbowKitProvider,
@@ -8,9 +7,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { WagmiProvider } from "wagmi";
 import { base } from "wagmi/chains";
 import "@rainbow-me/rainbowkit/styles.css";
+import { sdk } from "@farcaster/miniapp-sdk";  // ← правильный импорт: sdk, не ready   // ← добавили импорт
 
 const config = getDefaultConfig({
-  appName: "Farcaster Mini App",
+  appName: "Base Mini Mint",
   projectId: "c0d1e4e8f2a9c8b4d5e6f7a8b9c0d1e2",
   chains: [base],
 });
@@ -33,7 +33,7 @@ export default function App() {
               accountStatus="avatar"
             />
 
-            {/* ← 100% рабочий бесплатный минт */}
+            {/* Рабочий минт от Zora */}
             <div className="w-full max-w-sm">
               <iframe
                 src="https://zora.co/collect/base:0x04e2539779f6e89529cd21b1e7df7e19982fd20e0/1?embed=1"
@@ -46,7 +46,7 @@ export default function App() {
             </div>
 
             <p className="absolute bottom-6 text-xs opacity-50">
-              Бесплатный минт • работает только в Warpcast
+              Бесплатный минт • работает в Warpcast
             </p>
           </div>
         </RainbowKitProvider>
@@ -54,3 +54,7 @@ export default function App() {
     </WagmiProvider>
   );
 }
+
+// ←←← ЭТА СТРОЧКА ДОЛЖНА БЫТЬ ПОСЛЕДНЕЙ В ФАЙЛЕ
+// ←←← Последняя строка файла:
+sdk.actions.ready();  // ← маленькая r, через sdk.actions;
