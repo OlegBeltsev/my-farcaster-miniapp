@@ -52,5 +52,5 @@ export default function App() {
   );
 }
 
-import { ready } from "@farcaster/miniapp-sdk";
-ready();
+import { sdk } from "@farcaster/miniapp-sdk";
+sdk.actions.ready();
