@@ -1,18 +1,24 @@
 {
   "name": "MintCaster",
   "iconUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe",
-  "description": "Mint. Share. Shine on Zora & Base",
-  "homeUrl": "/",
+  "description": "Mint exclusive NFT on Base — one click in Warpcast",
+  "homeUrl": "https://my-farcaster-miniapp-zeta.vercel.app",
   "splashBackgroundColor": "#0f172a",
+  "imageUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe",
+  "heroImageUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreif64oiihnu7rqaevjdtcckqmi5wio55vmbni6c4uvkeevvhcaqfbu",
+  "splashImageUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe",
+  "screenshotUrls": [
+    "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe"
+  ],
   "action": {
-    "name": "mint NFT",
+    "name": "Mint NFT",
     "iconUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreif64oiihnu7rqaevjdtcckqmi5wio55vmbni6c4uvkeevvhcaqfbu",
-    "description": "Mint. Share. Shine on Zora & Base",
+    "description": "Mint NFT (0.005 ETH)",
     "url": "/"
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjM0NDA0OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDg0NkYxODIxQWYzZjdlMUQyNzM2NzI1N2MwOTgzNWU0OWQyZWI1NDMifQ",
-    "payload": "eyJkb21haW4iOiJteS1mYXJjYXN0ZXItbWluaWFwcC16ZXRhLnZlcmNlbC5hcHAifQ",
+    "payload": "eyJkb21haW4iOiJteS1mYXJjYXN0ZXItaW5pYXBwLXpldGEudmVyY2VsLmFwcCJ9",
     "signature": "efegI2qwjBSSvUk73eg1LDzkI5RKAbrkRNt/MsENpstalHHaMt/qWAgOsr7JYx/fEWJaIl1F57P5PQekfldc/Bs="
   }
 }
