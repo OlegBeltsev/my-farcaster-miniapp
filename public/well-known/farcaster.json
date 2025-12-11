@@ -1,15 +1,4 @@
 {
-  "name": "Base Mini Mint",
-  "iconUrl": "https://i.imgur.com/3oJ2K8P.png",
-  "description": "Бесплатный минт NFT на Base в один клик",
-  "homeUrl": "/",
-  "splashBackgroundColor": "#0f172a",
-  "action": {
-    "name": "Минт NFT",
-    "iconUrl": "https://i.imgur.com/3oJ2K8P.png",
-    "description": "Минт бесплатный NFT",
-    "url": "/"
-  },
   "accountAssociation": {
     "header": "eyJmaWQiOjM0NDA0OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDg0NkYxODIxQWYzZjdlMUQyNzM2NzI1N2MwOTgzNWU0OWQyZWI1NDMifQ",
     "payload": "eyJkb21haW4iOiJteS1mYXJjYXN0ZXItbWluaWFwcC16ZXRhLnZlcmNlbC5hcHAifQ",
