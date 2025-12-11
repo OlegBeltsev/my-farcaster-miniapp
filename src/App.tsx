@@ -32,10 +32,11 @@ export default function App() {
               showBalance={false}
               accountStatus="avatar"
             />
-{/* ←←← РАБОЧИЙ МИNT ПРЯМО В WARPCAST (твой NFT) */}
+{/* ←←← ТВОЙ NFT МИНТИТСЯ ПРЯМО В WARPCAST */}
 <div className="w-full max-w-sm">
-  {/* @ts-nocheck — Farcaster Frame v2 работает только в Warpcast */}
+  {/* @ts-nocheck — Farcaster Frames v2 не распознаются только на сервере Warpcast */}
   {/* @ts-ignore */}
+  {/* @ts-nocheck */}
   <fc:frame>
     <fc:frame-image src="https://i.imgur.com/3oJ2K8P.png" />
     <fc:frame-button
