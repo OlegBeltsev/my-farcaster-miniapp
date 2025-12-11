@@ -1,24 +1,24 @@
 {
   "name": "MintCaster",
-  "iconUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
+  "iconUrl": "https://i.postimg.cc/RW4HLvGt/mintcaster-preview.png",
   "description": "Mint exclusive NFT on Base — one click in Warpcast",
-  "homeUrl": "https://my-farcaster-miniapp-zeta.vercel.app",
+  "homeUrl": "/",
   "splashBackgroundColor": "#0f172a",
-  "imageUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
-  "heroImageUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
-  "splashImageUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
+  "imageUrl": "https://i.postimg.cc/RW4HLvGt/mintcaster-preview.png",
+  "heroImageUrl": "https://i.postimg.cc/RW4HLvGt/mintcaster-preview.png",
+  "splashImageUrl": "https://i.postimg.cc/RW4HLvGt/mintcaster-preview.png",
   "screenshotUrls": [
-    "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg"
+    "https://i.postimg.cc/RW4HLvGt/mintcaster-preview.png"
   ],
   "action": {
     "name": "Mint NFT",
-    "iconUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
+    "iconUrl": "https://i.postimg.cc/RW4HLvGt/mintcaster-preview.png",
     "description": "Mint NFT (0.005 ETH)",
     "url": "/"
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjM0NDA0OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDg0NkYxODIxQWYzZjdlMUQyNzM2NzI1N2MwOTgzNWU0OWQyZWI1NDMifQ",
-    "payload": "eyJkb21haW4iOiJteS1mYXJjYXN0ZXItaW5pYXBwLXpldGEudmVyY2VsLmFwcCJ9",
+    "payload": "eyJkb21haW4iOiJteS1mYXJjYXN0ZXItbWluaWFwcC16ZXRhLnZlcmNlbC5hcHAifQ",
     "signature": "efegI2qwjBSSvUk73eg1LDzkI5RKAbrkRNt/MsENpstalHHaMt/qWAgOsr7JYx/fEWJaIl1F57P5PQekfldc/Bs="
   }
 }
