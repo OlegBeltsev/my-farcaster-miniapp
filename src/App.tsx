@@ -21,7 +21,7 @@ export default function App() {
           <div className="min-h-screen bg-gradient-to-br from-[#0052FF] via-[#8B5CF6] to-[#EC4899] flex flex-col items-center justify-center p-8 text-white">
 
             <h1 className="text-6xl md:text-7xl font-black bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200 mb-8">
-              Base Mini Mint
+              Base Mint
             </h1>
 
             <p className="text-xl md:text-2xl text-center text-gray-200 mb-16 max-w-2xl">
