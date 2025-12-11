@@ -1,11 +1,29 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-farcaster-miniapp</title>
-  </head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>MintCaster</title>
+
+  <!-- Farcaster Frame vNext – красивое превью в Warpcast -->
+  <meta property="fc:frame" content="vNext" />
+  <meta property="fc:frame:image" content="https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe" />
+  <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
+  <meta property="fc:frame:button:1" content="Mint NFT (0.005 ETH)" />
+  <meta property="fc:frame:button:1:action" content="tx" />
+  <meta property="fc:frame:button:1:target" content="/api/mint" />
+  <meta property="fc:frame:button:2" content="View on Zora" />
+  <meta property="fc:frame:button:2:action" content="link" />
+  <meta property="fc:frame:button:2:target" content="https://zora.co/coin/base:0x1cf8371d81661e017dc034c6b20da71c3939ab8d" />
+  <meta property="fc:frame:post_url" content="https://my-farcaster-miniapp-zeta.vercel.app/api/frame" />
+
+  <!-- Open Graph – красиво в Telegram, Twitter и т.д. -->
+  <meta property="og:title" content="MintCaster – Mint NFT on Base" />
+  <meta property="og:description" content="Mint exclusive NFT on Base in one click via Warpcast" />
+  <meta property="og:image" content="https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe" />
+</head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>

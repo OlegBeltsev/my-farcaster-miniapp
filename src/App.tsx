@@ -5,7 +5,7 @@ import { base } from "wagmi/chains";
 import "@rainbow-me/rainbowkit/styles.css";
 
 const config = getDefaultConfig({
-  appName: "Base Mini Mint",
+  appName: "MintCaster",
   projectId: "c0d1e4e8f2a9c8b4d5e6f7a8b9c0d1e2",
   chains: [base],
 });
