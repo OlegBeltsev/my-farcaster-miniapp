@@ -32,16 +32,22 @@ export default function App() {
               showBalance={false}
               accountStatus="avatar"
             />
-
-            {/* Рабочий минт от Zora */}
-           {/* ←←← РАБОЧИЙ МИНТ В WARPCAST — без попапов */}
+{/* ←←← РАБОЧИЙ МИNT ПРЯМО В WARPCAST (твой NFT) */}
 <div className="w-full max-w-sm">
-  <a
-    href="https://warpcast.com/~/add-cast-action?url=https%3A%2F%2Fzora.co%2Fcollect%2Fbase%3A0x04e2539779f6e89529cd21b1e7df7e19982fd20e0%2F1"
-    className="block w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold py-4 px-6 rounded-2xl text-center shadow-lg hover:shadow-xl transition"
-  >
-    Минт бесплатный NFT
-  </a>
+  {/* @ts-nocheck — Farcaster Frame v2 работает только в Warpcast */}
+  {/* @ts-ignore */}
+  <fc:frame>
+    <fc:frame-image src="https://i.imgur.com/3oJ2K8P.png" />
+    <fc:frame-button
+      action="tx"
+      target={`/api/mint?contract=0x1cf8371d81661e017dc034c6b20da71c3939ab8d&tokenId=0&referrer=0x98601d86250fd966ef4b7b35a9cfff4038e79eea`}
+    >
+      Минт мой NFT (0.005 ETH)
+    </fc:frame-button>
+    <fc:frame-button action="link" target="https://zora.co/coin/base:0x1cf8371d81661e017dc034c6b20da71c3939ab8d">
+      Посмотреть на Zora
+    </fc:frame-button>
+  </fc:frame>
 </div>
 
             <p className="absolute bottom-6 text-xs opacity-50">
