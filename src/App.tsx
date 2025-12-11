@@ -51,3 +51,6 @@ export default function App() {
     </WagmiProvider>
   );
 }
+
+import { ready } from "@farcaster/miniapp-sdk";
+ready();
