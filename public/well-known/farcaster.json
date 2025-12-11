@@ -1,0 +1,12 @@
+{
+  "name": "Base Mini Mint",
+  "iconUrl": "https://i.imgur.com/3oJ2K8P.png",
+  "description": "Бесплатный минт NFT на Base в один клик",
+  "homeUrl": "/",
+  "action": {
+    "name": "Минт NFT",
+    "iconUrl": "https://i.imgur.com/3oJ2K8P.png",
+    "description": "Минт бесплатный NFT",
+    "url": "/"
+  }
+}
