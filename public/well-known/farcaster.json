@@ -1,18 +1,18 @@
 {
   "name": "MintCaster",
-  "iconUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe.png",
+  "iconUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
   "description": "Mint exclusive NFT on Base — one click in Warpcast",
   "homeUrl": "https://my-farcaster-miniapp-zeta.vercel.app",
   "splashBackgroundColor": "#0f172a",
-  "imageUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe.png",
-  "heroImageUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreif64oiihnu7rqaevjdtcckqmi5wio55vmbni6c4uvkeevvhcaqfbu.png",
-  "splashImageUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe.png",
+  "imageUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
+  "heroImageUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
+  "splashImageUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
   "screenshotUrls": [
-    "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreigdwkcvqzwimbhchysmgtxh2qvqshcghprx2lamflyef45gph6axe.png"
+    "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg"
   ],
   "action": {
     "name": "Mint NFT",
-    "iconUrl": "https://amethyst-cheap-bison-662.mypinata.cloud/ipfs/bafkreif64oiihnu7rqaevjdtcckqmi5wio55vmbni6c4uvkeevvhcaqfbu.png",
+    "iconUrl": "https://i.postimg.cc/2SB7m6Z0/vot-referens-dolzen-byt'-sinii-kvadrat-s-okruglenymi-kraami-na-purpurnom-fone-PNG-stil'-Base-120.jpg",
     "description": "Mint NFT (0.005 ETH)",
     "url": "/"
   },
