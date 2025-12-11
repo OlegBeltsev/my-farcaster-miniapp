@@ -1,13 +1,13 @@
 {
-  "name": "Base Mini Mint",
+  "name": "MintCaster",
   "iconUrl": "https://i.imgur.com/3oJ2K8P.png",
-  "description": "Бесплатный минт NFT на Base в один клик",
+  "description": "Mint. Share. Shine on Zora & Base",
   "homeUrl": "/",
   "splashBackgroundColor": "#0f172a",
   "action": {
-    "name": "Минт NFT",
+    "name": "mint NFT",
     "iconUrl": "https://i.imgur.com/3oJ2K8P.png",
-    "description": "Минт бесплатный NFT",
+    "description": "Mint. Share. Shine on Zora & Base",
     "url": "/"
   },
   "accountAssociation": {
