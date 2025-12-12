@@ -2,8 +2,8 @@ import { ConnectButton, RainbowKitProvider, getDefaultConfig } from "@rainbow-me
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { WagmiProvider } from "wagmi";
 import { base } from "wagmi/chains";
-import { useEffect } from "react";
 import "@rainbow-me/rainbowkit/styles.css";
+import { useEffect } from "react";
 
 const config = getDefaultConfig({
   appName: "MintCaster",
@@ -14,8 +14,8 @@ const config = getDefaultConfig({
 const queryClient = new QueryClient();
 
 export default function App() {
+  // Правильный вызов ready() — без импорта, без ошибок
   useEffect(() => {
-    // Правильный вызов ready() в Warpcast — без импорта SDK
     if (typeof window !== "undefined" && (window as any).farcaster?.sdk?.actions?.ready) {
       (window as any).farcaster.sdk.actions.ready();
     }
@@ -58,6 +58,3 @@ export default function App() {
     </WagmiProvider>
   );
 }
-
-import { sdk } from "@farcaster/miniapp-sdk";
-sdk.actions.ready();
